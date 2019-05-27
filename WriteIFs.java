@@ -9,8 +9,7 @@ public class WriteIFs
 {
  
     public void playerDied(boolean player1) {
-    if(isAlive(true)){
-    }else{
+    if(isAlive(false)){
         displayGameOver(player1);
     }
     }
